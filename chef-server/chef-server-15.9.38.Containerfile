@@ -25,11 +25,12 @@ LABEL maintainer="mauro.oddi@gmail.com" \
       io.openshift.non-scalable="false" io.openshift.tags="$APP" \
       org.opencontainers.image.title="Chef Infra Server" \
       org.opencontainers.image.description="Chef Infra Server" \
-      org.opencontainers.image.authors="Mauro S. Oddi" \
+      org.opencontainers.image.authors="Mauro Oddi" \
       org.opencontainers.image.created=$IMAGE_CREATE_DATE \
       org.opencontainers.image.version=$IMAGE_VERSION \
-      org.opencontainers.image.url="https://github.com/mauroseb/containers/chef-infra-server/Containerfile" \
-      org.opencontainers.image.source="https://github.com/chef/chef-server" \
+      org.opencontainers.image.url="https://github.com/mauroseb/containers/chef-infra-server/chef-server-15.9.38.Containerfile" \
+      org.opencontainers.image.documentation="https://github.com/mauroseb/containers/chef-infra-server/README.md \
+      org.opencontainers.image.source="https://github.com/mauroseb/containers/chef-infra-server/chef-server-15.9.38.Containerfile" \
       org.opencontainers.image.vendor="Mauro Oddi" \
       org.opencontainers.image.licenses="MIT"
 
